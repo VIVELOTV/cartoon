@@ -1,7 +1,12 @@
-<script LANGUAGE="JavaScript">
-function redireccionar() 
-{
-location.href=go:cartoon
+<html> 
+<head> 
+<META HTTP-EQUIV=Refresh CONTENT="2; URL=<? echo $_GET['go:cartoon'] ?>">:  
+</head> 
+<body> 
+<? 
+if (isset($_GET['msg'])){ 
+   echo "El mensaje es: ".$_GET['msg']; 
 } 
-setTimeout ("redireccionar()", 5000);
-</script> 
+?> 
+</body> 
+</html>
