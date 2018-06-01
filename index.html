@@ -1,1 +1,23 @@
-<html> <head> <meta http-equiv="Refresh" content="0;url=go:cartoon"> </head> </html> 
+<!DOCTYPE html>
+<head><title></title></head>
+<body>
+
+</style>
+<script src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<div id="player"></div>
+<script type='text/javascript'>
+        var player = new Clappr.Player({
+        source: 'https://atresplayerp-i.akamaized.net/lasextampp/master.m3u8',
+                    parentId: '#player',
+                    preload: 'auto',
+                    autoPlay: 'true',
+			        mediacontrol: {seekbar:"#FFFF00", buttons: "#FFFF00"},
+                    width: '650px',
+                    height: '400px'
+                });
+</script>
+
+
+</body>
+</html>
